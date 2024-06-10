@@ -1,0 +1,93 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #logo{
+    width: 100px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    z-index: 100;
+  }
+  #nav-links{
+    display: flex;
+    column-gap: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+  }
+  #hero{
+    background-image: url(../assets/images/heroimg5.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #herooverlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+
+    /* opacity: 0.5; */
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #Welcome{
+    font-size: 60px;
+  }
+  #Funky{
+    font-size: 90px;
+  }
+  .menu-button{
+    background-color: white;
+    color: #692729;
+    border: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .menu-button:hover{
+    background-color: #692729;
+    color: white;
+  }
+  #nav-links span:hover{
+    color: #692729;
+  }
+  #about{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+  }
+ #about img{
+  width: 30%;
+  height: 30%;
+ }
